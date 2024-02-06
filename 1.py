@@ -9,7 +9,7 @@ pio.templates.default = "plotly_white"
 data = pd.read_csv("t20 world cup 22.csv")
 print(data.head())
 
-#number of matches won by each team in Bar graph...
+#number of matches won by each team in Bar graph..
 
 figure = px.bar(data, 
                 x=data["winner"],
